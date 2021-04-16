@@ -1,0 +1,39 @@
+/* reset */
+*{
+    padding: 0;
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(185, 20, 80);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* mi era mancato flex, forse un abuso */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    width: 1024px;
+    margin: auto;
+}
+
+.card{
+    background-color: white;
+    border-radius: 15px;
+    /* width: 750px; */
+    height: 250px;
+}
+
+.ticket{
+    background-color: white;
+    /* width: 750px; */
+    height: 250px;
+}
